@@ -5,6 +5,7 @@ categories: 杂
 tags: [sublime, markdown]
 ---
 因为之前做的是手游开发python + lua，所以编辑器一直用的是sublime，然后为了写markdown特地去安装了一个markdown编辑器，后来发现原来sublime也可以变成一个漂亮的Markdown编辑器。
+<!--more-->
 
 # 预装环境
 [Sublime Text](http://www.sublimetext.com/)它的各种便利我就不多说了，安装完sublime后的第一件事情就是给它安装一个`package control`。

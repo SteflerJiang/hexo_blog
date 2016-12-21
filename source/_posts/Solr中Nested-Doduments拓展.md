@@ -6,7 +6,7 @@ tags: [Java, Solr]
 ---
 # 一、介绍
 [Nested Documents](http://yonik.com/solr-nested-objects/)是Solr引擎提供的一种用来描述父子关系的一种Document，描述的是一种一对多的关系。举个例子，一篇博客和很多评论，那么该博客就可以作为父doc的形式存在，而每条评论就可以作为子doc包含在父doc中。
-<!-- more --> 
+<!-- more -->
 一个简单的用XML形式描述的Nested Documents如下所示:
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>

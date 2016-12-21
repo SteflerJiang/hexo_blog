@@ -7,7 +7,7 @@ tags: [git, hexo]
 偶然看到了[Hexo](https://hexo.io/zh-cn/)，和免费的Github Page，对于程序员来说有一个属于自己的网站和分享技术的地方，真是装逼起飞的开始啊。
 
 废话不多说，直接上干货，对了我这个是针对于windows用户的。
-
+<!--more-->
 # 预装环境
 - [Node.js](http://nodejs.org/)
 - [Git](http://git-scm.com/)
@@ -67,3 +67,4 @@ Hexo的其他问题，可以直接看它的官方网站。[Hexo](https://hexo.io
 # 主题主题主题
 本来想用默认的主题随便用用，结果不小心google了一下，发现了[next](http://theme-next.iissnan.com/)，完全不能自拔，太漂亮了
 
+看到一个很详细的教程在这里[Hexo搭建GitHub博客（三）- NexT主题配置使用](https://zhiho.github.io/2015/09/29/hexo-next/)
