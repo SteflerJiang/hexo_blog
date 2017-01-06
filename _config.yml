@@ -4,7 +4,7 @@
 
 # Site
 title: 蒋士正的博客
-subtitle: SteflerJiang
+subtitle: 前游戏热爱者
 description: 音浪 太强 不晃 会被撞到地上
 author: 蒋士正
 language: zh-Hans
@@ -78,3 +78,9 @@ duoshuo_shortname: steflerjiang
 
 # avatar
 avatar: /images/avatar.jpg
+
+baidusitemap:
+  path: baidusitemap.xml
+
+sitemap:
+  path: sitemap.xml

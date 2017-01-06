@@ -6,6 +6,16 @@ tags: [Redis, 数据结构]
 ---
 ## 字典的实现
 Redis字典所使用的哈希表由dict.h/dictht结构定义：
+```shell
+redis> HLEN website
+(integer) 10086
+
+redis> HGETALL website
+1)"Redis"
+2)"Redis.io"
+3)"MariaDB"
+# ...
+```
 <!--more-->
 ```c
 typedef struct dictht {
