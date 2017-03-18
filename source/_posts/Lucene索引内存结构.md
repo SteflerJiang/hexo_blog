@@ -2,13 +2,15 @@
 title: Lucene索引内存结构
 date: 2017-03-10 11:47:23
 categories: Solr
-tags: Solr, Lucene
+tags: [Solr, Lucene]
 ---
 
 Lucene索引在内存中的结构主要分为三个部分: field, term, docId，具体如下。
 
 # Field在内存中的组织结构
 field->fileposition，域名对应在文件中的偏移量，`TreeMap<String,Long> fields = new TreeMap<>();`.
+
+<!-- more -->
 
 具体代码在org.apache.lucene.codecs.simpletext.SimpleTextFieldsReader中的readFields()方法中。
 ```java
@@ -167,4 +169,4 @@ docid -> offset，`private long offsets[]; /* docid -> offset in .fld file */`�
 现在用一个搜索过程来看下如何加载和使用这些数据,我们使用的搜索条件是：title=hello
 
 流程图如下
-[lucene索引流程图](/images/Lucene索引流程.png "Lucene索引流程")
+![lucene索引流程图](/images/Lucene索引流程.png "Lucene索引流程")
